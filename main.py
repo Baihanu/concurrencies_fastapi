@@ -40,6 +40,9 @@ def cotacao(de: str, para:str, quantia:float):
     return {f'Cotacao de {de} para {para}': resultado}
 
 def cotacoes_moeda_para_BTC_ETH(de:str, para:str, quantia:float):
+    """
+    Essa função auxilia em casos de pesquisa de cotação de "Moeda" para BTC/ETH, pois a apiawesome não tem implementado.
+    """
     link = f'https://economia.awesomeapi.com.br/last/{para}-USD'
     requisicao = requests.get(link)
     fk_result = requisicao.json()[f'{para}USD']
