@@ -40,6 +40,5 @@ http://127.0.0.1:8000/cotacao?de=BRL&para=USD&quantia=9
 
 ### Rodando com Docker:
 ```
-docker build -t concurrencies-fastapi .
-docker run --rm --name concurrencies_fastapi --publish 8000:8000 concurrencies-fastapi
+docker compose up -d
 ```

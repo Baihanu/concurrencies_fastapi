@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    image: concurrencies-fastapi:dev
+    ports:
+      - 8000:8000
