@@ -1,4 +1,4 @@
-# concurrencies_fastapi
+# Concurrencies FastAPI - DataStone
 Implementação de API para cotação com FastAPI
 
 Esse projeto utiliza as seguintes libs:
